@@ -33,6 +33,7 @@ function choosePlayer(){
     }
     
     chooseBtn.style.display = "none"
+    rollBtn.style.display = "block"
 }
 
 chooseBtn.addEventListener("click", function(){
@@ -88,7 +89,6 @@ function reset() {
     message.textContent = "Player Turn"
     resetBtn.style.display = "none"
     chooseBtn.style.display = "block"
-    rollBtn.style.display = "block"
     player2Dice.classList.remove("active")
     player1Dice.classList.remove("active")
     container.style.animation = "none"
